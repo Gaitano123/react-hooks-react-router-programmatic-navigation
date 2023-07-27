@@ -17,6 +17,7 @@ function Login({ setIsLoggedIn }) {
 
   function handleSubmit(e) {
     e.preventDefault();
+    //Here there is no data to be posted to an API
 
     setIsLoggedIn(true);
 
